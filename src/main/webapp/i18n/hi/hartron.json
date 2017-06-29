@@ -1,0 +1,23 @@
+{
+    "studentApp": {
+        "hartron" : {
+            "home": {
+                "title": "Hartrons",
+                "createLabel": "नया Hartron बनाएँ",
+                "createOrEditLabel": "Hartron बनाएँ या संपादित करें"
+            },
+            "created": "एक नया Hartron [identifier: {{ param }}] तैयार है",
+            "updated": "एक Hartron [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Hartron [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Hartron [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Hartron"
+            },
+            "employee_name": "Employee Name",
+            "designation": "Designation",
+            "phone_no": "Phone No"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "employee_name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "designation",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "phone_no",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20170629064826",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "hartron",
+    "pagination": "no"
+}

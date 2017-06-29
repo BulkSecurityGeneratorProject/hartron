@@ -1,0 +1,24 @@
+{
+    "studentApp": {
+        "yug" : {
+            "home": {
+                "title": "Yugs",
+                "createLabel": "Create a new Yug",
+                "createOrEditLabel": "Create or edit a Yug"
+            },
+            "created": "A new Yug is created with identifier {{ param }}",
+            "updated": "A Yug is updated with identifier {{ param }}",
+            "deleted": "A Yug is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Yug {{ id }}?"
+            },
+            "detail": {
+                "title": "Yug"
+            },
+            "name": "Name",
+            "sex": "Sex",
+            "email": "Email",
+            "age": "Age"
+        }
+    }
+}

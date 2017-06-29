@@ -1,0 +1,24 @@
+version: '2'
+services:
+    student-app:
+        image: student
+        environment:
+            - SPRING_PROFILES_ACTIVE=prod,swagger
+            - SPRING_DATA_CASSANDRA_CONTACTPOINTS=student-cassandra
+            - JHIPSTER_SLEEP=30 # gives time for the Cassandra cluster to start and execute the migration scripts
+        ports:
+            - 8080:8080
+    student-cassandra:
+        extends:
+            file: cassandra-cluster.yml
+            service: student-cassandra
+    student-cassandra-node:
+        image: cassandra:3.9
+        environment:
+            - CASSANDRA_SEEDS=student-cassandra
+    student-cassandra-migration:
+        extends:
+            file: cassandra-migration.yml
+            service: student-cassandra-migration
+        environment:
+            - CREATE_KEYSPACE_SCRIPT=create-keyspace-prod.cql

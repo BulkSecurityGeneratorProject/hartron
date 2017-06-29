@@ -1,0 +1,31 @@
+
+<div>
+    <h2><span data-translate="studentApp.hartron.detail.title">Hartron</span> {{vm.hartron.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span data-translate="studentApp.hartron.employee_name">Employee Name</span></dt>
+        <dd>
+            <span>{{vm.hartron.employee_name}}</span>
+        </dd>
+        <dt><span data-translate="studentApp.hartron.designation">Designation</span></dt>
+        <dd>
+            <span>{{vm.hartron.designation}}</span>
+        </dd>
+        <dt><span data-translate="studentApp.hartron.phone_no">Phone No</span></dt>
+        <dd>
+            <span>{{vm.hartron.phone_no}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span data-translate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button" ui-sref="hartron-detail.edit({id:vm.hartron.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down" data-translate="entity.action.edit"> Edit</span>
+    </button>
+</div>

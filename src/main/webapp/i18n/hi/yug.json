@@ -1,0 +1,24 @@
+{
+    "studentApp": {
+        "yug" : {
+            "home": {
+                "title": "Yugs",
+                "createLabel": "नया Yug बनाएँ",
+                "createOrEditLabel": "Yug बनाएँ या संपादित करें"
+            },
+            "created": "एक नया Yug [identifier: {{ param }}] तैयार है",
+            "updated": "एक Yug [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Yug [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Yug [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Yug"
+            },
+            "name": "Name",
+            "sex": "Sex",
+            "email": "Email",
+            "age": "Age"
+        }
+    }
+}
