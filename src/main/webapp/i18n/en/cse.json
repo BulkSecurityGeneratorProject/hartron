@@ -1,0 +1,22 @@
+{
+    "studentApp": {
+        "cse" : {
+            "home": {
+                "title": "Cses",
+                "createLabel": "Create a new Cse",
+                "createOrEditLabel": "Create or edit a Cse"
+            },
+            "created": "A new Cse is created with identifier {{ param }}",
+            "updated": "A Cse is updated with identifier {{ param }}",
+            "deleted": "A Cse is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Cse {{ id }}?"
+            },
+            "detail": {
+                "title": "Cse"
+            },
+            "dept": "Dept",
+            "branch": "Branch"
+        }
+    }
+}

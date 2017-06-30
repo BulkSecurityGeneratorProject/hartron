@@ -1,0 +1,22 @@
+{
+    "studentApp": {
+        "cse" : {
+            "home": {
+                "title": "Cses",
+                "createLabel": "नया Cse बनाएँ",
+                "createOrEditLabel": "Cse बनाएँ या संपादित करें"
+            },
+            "created": "एक नया Cse [identifier: {{ param }}] तैयार है",
+            "updated": "एक Cse [identifier: {{ param }}] का अद्यतन हुआ है",
+            "deleted": "Cse [identifier: {{ param }}] हटा दिया है",
+            "delete": {
+                "question": "Cse [id: {{ id }}] हटाने की पुष्टि करें"
+            },
+            "detail": {
+                "title": "Cse"
+            },
+            "dept": "Dept",
+            "branch": "Branch"
+        }
+    }
+}

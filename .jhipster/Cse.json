@@ -1,0 +1,19 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "dept",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "branch",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20170630040150",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "cse",
+    "pagination": "no"
+}
