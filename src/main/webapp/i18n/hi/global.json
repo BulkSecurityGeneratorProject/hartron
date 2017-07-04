@@ -9,6 +9,7 @@
                 "main": "एंटिटीज़",
                 "hartron": "Hartron",
                 "project": "Project",
+                "yug": "Yug",
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
